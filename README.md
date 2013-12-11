@@ -1,4 +1,4 @@
-## Developing Google Chrome Extensions Source Code
+## Затем биатлонист передал его моржу.
 
-Here's the source code for the Nettuts+ article on Developing Google Chrome 
-Extensions, written by Krasimir Tsonev.
+Улучшение для новостей на главной странице Яндекса, инспирированное вот этой новостью:
+http://znak.com/tumen/news/2013-12-11/1015653.html

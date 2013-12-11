@@ -1,11 +1,9 @@
 {
-  "name": "BrowserExtension",
+  "name": "Biatlonist2Walrus",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description" : "Description ...",
+  "description" : "Затем он биатлонист передал его моржу.",
   "icons": { "16": "icons/16x16.png", "48": "icons/48x48.png", "128": "icons/128x128.png" },
-
-  "omnibox": { "keyword" : "yeah" },
 
   "browser_action": {
     "default_icon": {
@@ -16,21 +14,11 @@
     "default_popup": "browseraction/popup.html"
   },
 
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-
-  "chrome_url_overrides" : {
-    "newtab": "newtab/newtab.html"
-  },
-
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["content.js"]
+    //   "matches": ["http://yandex.ru", "https://yandex.ru"],
+	 "matches": ["http://*/*", "https://*/*"],
+      "js": ["walrus.js"]
     }
-  ],
-
-  "devtools_page": "devtools/devtools.html"
+  ]
 }
